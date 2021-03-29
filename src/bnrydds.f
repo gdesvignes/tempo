@@ -47,7 +47,7 @@ c     'x' defined in acom.h
      +             DTGR,TDIS,BCLT      
 	include 'trnsfr.h'
 
-        real*10 frb, tt0, tt, orbits
+        DOUBLE PRECISION frb, tt0, tt, orbits
 
         frb = 1.d0/pb(1)
 	an=twopi/pb(1)
